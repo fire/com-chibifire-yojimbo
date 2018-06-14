@@ -6,7 +6,7 @@ Read: https://github.com/esrlabs/git-repo
 mkdir com-chibifire-yojimbo
 cd com-chibifire-yojimbo
 ## TODO FIX no-repo-verify
-repo init -u git@git.chibifire.com:ernest.lee/com-chibifire-yojimbo.git --no-repo-verify
+repo init -u git@github.com:fire/com-chibifire-yojimbo.git --no-repo-verify
 ``` 
 
 Reference:
