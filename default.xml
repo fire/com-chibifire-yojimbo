@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github"
+           fetch="ssh://git@github.com" />
+  <remote name="origin"
+      fetch="ssh://git@git.chibifire.com" />
+  <default revision="refs/heads/master"
+           remote="github"
+           sync-j="10" />
+  <!-- godot libyojimbo -->
+  <project name="fire/com-chibifire-yojimbo-plugin.git" remote="github" path="addons/com-chibifire-yojimbo-plugin" />
+  <project name="fire/godot" remote="github" revision="yojimbo" path="addons/com-chibifire-yojimbo-plugin/thirdparty/godot" />
+</manifest>
